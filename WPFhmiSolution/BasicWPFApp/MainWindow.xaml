@@ -1,0 +1,16 @@
+﻿<Window x:Class="BasicWPFApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BasicWPFApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <!--<Button Content="Click Again" Width="100" Height="80"/> 
+        
+        <Button Content="Click" Margin="389,236,180,50" />-->
+        <Button Name="BtnOK" Content="OKK" Width="74" Height="25" Click="BtnOK_Click" />
+        <Ellipse Width="100" Height="90" Fill="Blue" Stroke="Black" StrokeThickness="5"></Ellipse>
+    </Grid>
+</Window>
